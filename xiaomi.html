@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XIAOMI</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/phandau.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <script>
+        $(document).ready(function(){
+            $('#toggle').click(function(){
+               $('nav').slideToggle();
+            });
+        })
+    </script>
+
+    <div class="tongthe">
+        <header class="header">
+           
+            <nav class="header_tren">
+                <div class="header_tren1">
+                    <div class="tren_trai">
+                        <img src="logo/1.jpg" style="width: 48px; height: 48px">
+                    </div>
+                    <div class="tren_giua">
+                        <input type="text" class="header_search-input" placeholder="Nhập sản phẩm cần tìm">
+                        <button><i class="fa fa-search"></i>
+                        </button>
+                    </div> 
+                    <ul class="tren_phai">
+                        <li class="tren_phai_0"><a href="trangchu.html" class="tren_phai_1"><i class="fa fa-home"></i> Trang chủ</a></li>
+                        <li class="tren_phai_0"><a href="giohang.html" class="tren_phai_1"><i class="fa fa-shopping-basket"></i> Giỏ hàng</a></li>
+                        <li class="nav-item active tren_phai_0">
+                            <a class="nav-link tren_phai_1" href="#" data-toggle="modal" data-target="#modalLoginForm">
+                                <i class="fa fa-user"></i>Tài khoản</a>
+                        </li>
+                        
+                        <li class="tren_phai_0"><a href="hotro.html" class="tren_phai_1"><i class="fa fa-phone"></i> Hỗ trợ</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="modal fade" id="modalLoginForm">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Đăng nhập tài khoản</h4>
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="input_box">
+                                <input type="text" placeholder="Tên đăng nhập" required>
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                            </div>
+                            <br>
+                            <div class="input_box">
+                                <input type="password" placeholder="Mật khẩu" required>
+                                <div class="icon"><i class="fa fa-lock"></i></div>
+                            </div>
+                        </div>
+                        
+                        <div class="modal-footer justify-content-center chinh">
+                            <div class="chinh1"><a ><u>Quên mật khẩu</u></a></div>
+                            <button class="chinh2 btn btn-default " >Đăng nhập</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="header_duoi">
+                <ul class="danhsach">
+                    <li class="tren_duoi_0 gachxuong "><a href="#" class="tren_duoi_1"><i class="fa fa-mobile" ></i> Điện thoại</a>
+                        <ul class="sub-menu">
+                            <li><a href="iphone.html">IPHONE</a></li>
+                            <li><a href="samsung.html">SAMSUNG</a></li>
+                            <li><a href="oppo.html">OPPO</a></li>
+                            <li><a href="xiaomi.html">XIAOMI</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="tren_duoi_0 gachxuong1"><a href="#" class="tren_duoi_1"><i class="fa fa-laptop"></i> Laptop</a>
+                        <ul class="sub-menu">
+                            <li><a href="dell.html">DELL</a></li>
+                            <li><a href="hp.html">HP</a></li>
+                            <li><a href="asus.html">ASUS</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="tren_duoi_0 gachxuong1"><a href="pc.html" class="tren_duoi_1"><i class="fa fa-desktop"></i> PC</a></li>
+
+                    <li class="tren_duoi_0 gachxuong1"><a href="#" class="tren_duoi_1"><i class="fa fa-tablet"></i> Máy tính bảng</a>
+                        <ul class="sub-menu">
+                            <li><a href="mtbipad.html">IPAD</a></li>
+                            <li><a href="mtbsamsung.html">SAMSUNG</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="tren_duoi_0 gachxuong1"><a href="#" class="tren_duoi_1"><i class="fa fa-tv"></i> TV</a>
+                        <ul class="sub-menu">
+                            <li><a href="tivisony.html">SONY</a></li>
+                            <li><a href="tivilg.html">LG</a></li>
+                            <li><a href="tivipana.html">PANASONIC</a></li>
+                            <li><a href="tivisamsung.html">SAMSUNG</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="tren_duoi_0 gachxuong1"><a href="dongho.html" class="tren_duoi_1"><i class="fa fa-clock"></i> Smart Watch</a></li>
+                    <li class="tren_duoi_0 gachxuong2"><a href="phukien.html" class="tren_duoi_1"><i class="fa fa-puzzle-piece"></i> Phụ kiện</a></li>
+                </ul>
+            </nav>
+
+            
+            <div class="menudt">
+               
+                <div id="toggle">
+                    <img src="logo/1.jpg" style="width: 48px; height: 48px;">
+                    <i class="menu fa-solid fa-bars"></i>
+                    
+                </div>
+                <nav class="dt">
+                    <ul id="main-menu">
+                        <li><a href="trangchu.html">Trang chủ</a></li>
+
+                        <li><a href="giohang.html">Giỏ hàng</a></li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLoginForm">
+                                Tài khoản</a>
+                        </li>
+
+                        <li><a href="hotro.html">Hỗ trợ</a></li>
+
+                        <li>
+                            <a href="#">Sản phẩm</a>
+                            <ul class="gianhang">
+                                <li>
+                                    <a href="#">Điện thoại</a>
+                                    <ul class="na">
+                                        <li><a href="iphone.html">Iphone</a></li>
+                                        <li><a href="samsung.html">Samsung</a></li>
+                                        <li><a href="oppo.html">Oppo</a></li>
+                                        <li><a href="xiaomi.html">Xiaomi</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="#">Laptop</a>
+                                    <ul class="na">
+                                        <li><a href="dell.html">Dell</a></li>
+                                        <li><a href="hp.html">HP</a></li>
+                                        <li><a href="asus.html">Asus</a></li>
+                                        
+                                    </ul>
+                                </li>
+        
+                                <li> <a href="pc.html">PC</a></li>
+        
+                                <li>
+                                    <a href="#">Máy tính bảng</a>
+                                    <ul class="na">
+                                        <li><a href="mtbipad.html">Ipad</a></li>
+                                        <li><a href="mtbsamsung.html">Samsung</a></li>
+                                       
+                                    </ul>
+                                </li>
+        
+                                <li>
+                                    <a href="#">TV</a>
+                                    <ul class="na">
+                                        <li><a href="tivisony.html">Sony</a></li>
+                                        <li><a href="tivilg.html">LG</a></li>
+                                        <li><a href="tivipana.html">Panasonic</a></li>
+                                        <li><a href="tivisamsung.html">Samsung</a></li>
+                                    </ul>
+                                </li>
+        
+                                <li><a href="dongho.html">Smart Watch</a></li>
+        
+                                <li><a href="phukien.html">Phụ kiện</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div> 
+
+        </header>
+
+        <div class="quangcao">
+            <img src="images_doan/redmi.jpg" alt="" class="quangcao_1">
+            <img src="images_doan/redmi1.gif" alt="" class="quangcao_2">
+        </div>
+        
+        <!-- -------------------------------ĐIỆN THOẠI-------------------------------------------------- -->
+        <div class="group_desktop">
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi 12T Pro</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>16.900.000vnđ</strong></p>
+                                    <h4><strong><del>17.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm2.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi 12</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>15.990.000 vnđ</strong></p>
+                                    <h4><strong><del>16.590.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm3.jpeg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi 11T Pro 5G 8GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>13.900.000 vnđ</strong></p>
+                                    <h4><strong><del>14.590.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm4.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi 12T 128GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>12.490.000 vnđ</strong></p>
+                                    <h4><strong><del>13.650.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+   
+                    </div>
+
+                    <div class="row cantop">
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm5.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi 11T 5G 128GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>9.900.000vnđ</strong></p>
+                                    <h4><strong><del>10.700.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm6.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi 11 Lite 5G NE</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>8.490.000 vnđ</strong></p>
+                                    <h4><strong><del>9.590.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm7.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi  Redmi 10 Pro</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>7.090.000 vnđ</strong></p>
+                                    <h4><strong><del>8.070.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm8.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi Note 11 Pro</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>6.990.000 vnđ</strong></p>
+                                    <h4><strong><del>7.900.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+   
+                    </div>
+
+                    <div class="row cantop">
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm9.jpeg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi Note 10S 6GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>5.490.000vnđ</strong></p>
+                                    <h4><strong><del>6.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm10.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 10 Series</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>4.690.000 vnđ</strong></p>
+                                    <h4><strong><del>5.890.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm11.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 10C 64GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>3.490.000 vnđ</strong></p>
+                                    <h4><strong><del>4.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm12.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 9C</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>3.190.000 vnđ</strong></p>
+                                    <h4><strong><del>4.200.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+   
+                    </div>
+
+                    <div class="row cantop">
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm13.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 10A</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>2.590.000vnđ</strong></p>
+                                    <h4><strong><del>3.700.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm14.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 9A</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>2.290.000 vnđ</strong></p>
+                                    <h4><strong><del>3.590.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm15.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi A1</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>2.090.000 vnđ</strong></p>
+                                    <h4><strong><del>3.590.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/xm16.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi Note 11S 5G</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>6.490.000 vnđ</strong></p>
+                                    <h4><strong><del>7.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+   
+                    </div>
+
+                </div>
+        </div>
+
+        <div class="group_ipad">
+            <div id="pricing" class="container-fluid">
+
+                <div class="row cantop">
+
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm1.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi 12T Pro</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>16.900.000vnđ</strong></p>
+                                <h4><strong><del>17.500.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm2.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi 12</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>15.990.000 vnđ</strong></p>
+                                <h4><strong><del>16.590.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm3.jpeg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi 11T Pro 5G 8GB</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>13.900.000 vnđ</strong></p>
+                                <h4><strong><del>14.590.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="row cantop">
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm4.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi 12T 128GB</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>12.490.000 vnđ</strong></p>
+                                <h4><strong><del>13.650.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm5.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi 11T 5G 128GB</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>9.900.000vnđ</strong></p>
+                                <h4><strong><del>10.700.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm6.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi 11 Lite 5G NE</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>8.490.000 vnđ</strong></p>
+                                <h4><strong><del>9.590.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="row cantop">
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm7.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi  Redmi 10 Pro</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>7.090.000 vnđ</strong></p>
+                                <h4><strong><del>8.070.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm8.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi Note 11 Pro</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>6.990.000 vnđ</strong></p>
+                                <h4><strong><del>7.900.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm9.jpeg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi Note 10S 6GB</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>5.490.000vnđ</strong></p>
+                                <h4><strong><del>6.500.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="row cantop">
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm10.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 10 Series</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>4.690.000 vnđ</strong></p>
+                                <h4><strong><del>5.890.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm11.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 10C 64GB</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>3.490.000 vnđ</strong></p>
+                                <h4><strong><del>4.500.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm12.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 9C</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>3.190.000 vnđ</strong></p>
+                                <h4><strong><del>4.200.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="row cantop">
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm13.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 10A</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>2.590.000vnđ</strong></p>
+                                <h4><strong><del>3.700.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm14.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 9A</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>2.290.000 vnđ</strong></p>
+                                <h4><strong><del>3.590.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm15.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi A1</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>2.090.000 vnđ</strong></p>
+                                <h4><strong><del>3.590.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="row cantop">
+                
+                    <div class="col-sm-4">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm16.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi Note 11S 5G</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>6.490.000 vnđ</strong></p>
+                                <h4><strong><del>7.500.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="group_dt">
+            <div id="pricing" class="container-fluid">
+
+                <div class="row cantop">
+
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm1.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi 12T Pro</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>16.900.000vnđ</strong></p>
+                                <h4><strong><del>17.500.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm2.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi 12</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>15.990.000 vnđ</strong></p>
+                                <h4><strong><del>16.590.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="row cantop">
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm3.jpeg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi 11T Pro 5G 8GB</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>13.900.000 vnđ</strong></p>
+                                <h4><strong><del>14.590.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm4.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi 12T 128GB</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>12.490.000 vnđ</strong></p>
+                                <h4><strong><del>13.650.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="row cantop">
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm5.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi 11T 5G 128GB</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>9.900.000vnđ</strong></p>
+                                <h4><strong><del>10.700.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm6.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi 11 Lite 5G NE</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>8.490.000 vnđ</strong></p>
+                                <h4><strong><del>9.590.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="row cantop">
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm7.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi  Redmi 10 Pro</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>7.090.000 vnđ</strong></p>
+                                <h4><strong><del>8.070.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm8.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi Note 11 Pro</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>6.990.000 vnđ</strong></p>
+                                <h4><strong><del>7.900.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="row cantop">
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm9.jpeg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi Note 10S 6GB</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>5.490.000vnđ</strong></p>
+                                <h4><strong><del>6.500.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm10.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 10 Series</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>4.690.000 vnđ</strong></p>
+                                <h4><strong><del>5.890.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="row cantop">
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm11.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 10C 64GB</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>3.490.000 vnđ</strong></p>
+                                <h4><strong><del>4.500.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm12.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 9C</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>3.190.000 vnđ</strong></p>
+                                <h4><strong><del>4.200.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="row cantop">
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm13.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 10A</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>2.590.000vnđ</strong></p>
+                                <h4><strong><del>3.700.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm14.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi 9A</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>2.290.000 vnđ</strong></p>
+                                <h4><strong><del>3.590.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="row cantop">
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm15.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi A1</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>2.090.000 vnđ</strong></p>
+                                <h4><strong><del>3.590.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-xs-6">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <img src="imagesdt/xm16.jpg" class="anh">
+                            </div>
+                            <div class="tensp">
+                                <p style="margin-bottom: 0px;"><strong>Xiaomi Redmi Note 11S 5G</strong></p>
+                            </div>
+                            <div class="panel-gia">
+                                <p><strong>6.490.000 vnđ</strong></p>
+                                <h4><strong><del>7.500.000 vnđ</del></strong></h4>
+                                <br>
+                            </div>
+                            <div class="muahang">
+                                <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 14px;padding-top: 2px;"></i> Mua hàng</button>
+                                <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 14px;padding-top: 2px;"></i> Thêm vào giỏ hàng</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+        <!-- --------------------------------------KẾT THÚC ĐIỆN THOẠI------------------------------------------------------- -->
+
+        <!-- Phần cuối  -->
+        <div >
+            <div class="thongtin">
+                <div class="thongtinpro">
+                    <h1 style="font-weight: bold;">Hỗ trợ:</h1>
+                    <li><a href="https://www.facebook.com/thanhchetm"><img src="images_doan/fb.jpg" class="logo1">https://www.facebook.com/thanhchetm</a></li>
+                    <li><a href="https://zalo.me/g/gbmvgb398"><img src="images_doan/zalo.jpg" class="logo1">https://zalo.me/g/gbmvgb398</a></li>
+                    <li><a href="Xyzthanhchien@gmail.com"><img src="images_doan/gmail.jpg" class="logo1">Xyzthanhchien@gmail.com</a></li>
+                </div>
+                <div class="vertical-line" ></div>
+                <div class="thongtinpro">
+                    <h1 style="font-weight: bold;">Phương thức thanh toán:</h1>
+                    <div class="nganhang">
+                        <img src="images_doan/vnpay.png" style="width: 90px; height:30px; margin-right: 5px; border-radius:4px;" alt="">
+                        <img src="images_doan/MoMo_Logo.png" style="width: 30px; height:30px; margin-right: 5px; border-radius:4px;" alt="">
+                        <img src="images_doan/ZaloPay-logo.png" style="width: 30px; height:30px; margin-right: 5px; border-radius:4px;" alt="">
+                        <br>
+                        <img src="images_doan/agri.jpg" style="width: 40px; height:30px; border-radius:4px; margin-right: 5px; margin-top: 10px;" alt="">
+                        <img src="images_doan/logo-bidv-20220426071253.jpg" style="width: 40px; height:25px; border-radius:4px; margin-right: 5px; margin-top: 15px;" alt="">
+                        <img src="images_doan/logo-vietinbank-inkythuatso-10-13-22-06.jpg" style="width: 70px; height:30px; border-radius:4px; margin-right: 5px; margin-top: 10px;" alt="">
+                    </div>
+                    <div class="nganhang1">
+                        <img src="images_doan/vnpay.png" style="width: 60px; height:20px; margin-right: 0px; border-radius:4px;" alt="">
+                        <img src="images_doan/MoMo_Logo.png" style="width: 20px; height:20px; margin-right: 3px; border-radius:4px;" alt="">
+                        <img src="images_doan/ZaloPay-logo.png" style="width: 20px; height:20px; margin-right: 3px; border-radius:4px;" alt="">
+                        <br>
+                        <img src="images_doan/agri.jpg" style="width: 30px; height:20px; border-radius:4px; margin-right: 0px; margin-top: 10px;" alt="">
+                        <img src="images_doan/logo-bidv-20220426071253.jpg" style="width: 30px; height:15px; border-radius:4px; margin-right: 3px; margin-top: 15px;" alt="">
+                        <img src="images_doan/logo-vietinbank-inkythuatso-10-13-22-06.jpg" style="width: 40px; height:20px; border-radius:4px; margin-right: 3px; margin-top: 10px;" alt="">
+                    </div>
+                    <div class="nganhang2">
+                        <img src="images_doan/vnpay.png" style="width: 30px; height:10px; margin-right: 0px; border-radius:2px;" alt="">
+                        <img src="images_doan/MoMo_Logo.png" style="width: 10px; height:10px; margin-right: 1.5px; border-radius:2px;" alt="">
+                        <img src="images_doan/ZaloPay-logo.png" style="width: 10px; height:10px; margin-right: 1.5px; border-radius:2px;" alt="">
+                        <br>
+                        <img src="images_doan/agri.jpg" style="width: 15px; height:10px; border-radius:2px; margin-right: 0px; margin-top: 5px;" alt="">
+                        <img src="images_doan/logo-bidv-20220426071253.jpg" style="width: 15px; height:7.5px; border-radius:2px; margin-right: 1.5px; margin-top: 7.5px;" alt="">
+                        <img src="images_doan/logo-vietinbank-inkythuatso-10-13-22-06.jpg" style="width: 20px; height:10px; border-radius:2px; margin-right: 3px; margin-top: 5px;" alt="">
+                    </div>
+                </div>
+                <div class="vertical-line" ></div>
+                <div class="thongtinpro">
+                    <h1 style="font-weight: bold;margin-top: 10px;">Tổng đài hỗ trợ:</h1>
+                    <div class="dungchodt">
+                        <li ><i class="fa fa-phone"></i> 1800 3737</li>
+                    </div>
+                </div>
+                <div class="dungchodt2">
+                    <div class="vertical-line" ></div>
+                </div>
+                <div class="dungchodt2">
+                    <div class="thongtinpro1">
+                        <h1 style="font-weight: bold;">Hình ảnh quá <br> trình làm việc <br> của nhóm</h1>
+                        <div class="slidemini">
+                            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="images/lv1.jpg" class="slidebannermini" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/lv2.jpg" class="slidebannermini" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/lv4.jpg" class="slidebannermini" alt="">
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="font-size: 15px; margin-top: 10px; color: white;"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="font-size: 15px; margin-top: 10px; color: white;"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            
+            <div class="footer">&copy;
+                <span class="yellowtext">Nhóm đồ án thiết kế web bán hàng điện tử do các thành viên nhóm gồm Lê Công Thành, Nguyễn Thị Lê Na, Hoàng Thị Quỳnh Trang thiết kế và xây dựng. Bắt đầu từ ngày 10/10/2022 
+                    tại trường Đại Học Vinh Số 182, đường Lê Duẩn, thành phố Vinh, tỉnh Nghệ An</span>
+            </div>
+        </div>
+    <!-- End phần cuối -->  
+
+    </div>
+    
+    
+</body>
+</html>

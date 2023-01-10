@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANG CHỦ</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/phandau.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+   
+    <script>
+        $(document).ready(function(){
+            $('#toggle').click(function(){
+               $('nav').slideToggle();
+            });
+        })
+    </script>
+    <div class="tongthe">
+        <header class="header">
+
+            <nav class="header_tren">
+                <div class="header_tren1">
+                    <div class="tren_trai">
+                        <img src="logo/1.jpg" style="width: 48px; height: 48px">
+
+                    </div>
+                    <div class="icon">
+                        <a href="vd.html"><i class="fa-solid fa-house" style="margin: 20px 30px 5px -40px; font-size: 20px; "></i></a>
+                    </div>
+                   
+                    <div class="tren_giua">
+                        <input type="text" class="header_search-input" placeholder="Nhập sản phẩm cần tìm">
+                        <button><i class="fa fa-search"></i>
+                        </button>
+                    </div> 
+
+                    <div class="icon">
+                        <a href="giohang.html"><i class="fa fa-shopping-cart" style="margin-right: 100px; margin-top: 20px; font-size: 20px; "></i></a>
+                    </div>
+
+                    <div class="menumtb">
+                        <div id="toggle">   
+                            <i class="menu fa-solid fa-bars" style="margin-top: 20px; margin-left: -20px;"></i>
+                            
+                        </div>
+
+                        <nav class="ipad">
+                            <ul id="main-menu">
+        
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLoginForm">
+                                        Tài khoản</a>
+                                </li>
+                                
+        
+                                <li><a href="hotro.html">Hỗ trợ</a></li>
+        
+                                <li>
+                                    <a href="#">Sản phẩm</a>
+                                    <ul class="gianhang">
+                                        <li>
+                                            <a href="#">Điện thoại</a>
+                                            <ul class="na">
+                                                <li><a href="iphone.html">Iphone</a></li>
+                                                <li><a href="samsung.html">Samsung</a></li>
+                                                <li><a href="oppo.html">Oppo</a></li>
+                                                <li><a href="xiaomi.html">Xiaomi</a></li>
+                                            </ul>
+                                        </li>
+        
+                                        <li>
+                                            <a href="#">Laptop</a>
+                                            <ul class="na">
+                                                <li><a href="dell.html">Dell</a></li>
+                                                <li><a href="hp.html">HP</a></li>
+                                                <li><a href="asus.html">Asus</a></li>
+                                                
+                                            </ul>
+                                        </li>
+                
+                                        <li> <a href="pc.html">PC</a></li>
+                
+                                        <li>
+                                            <a href="#">Máy tính bảng</a>
+                                            <ul class="na">
+                                                <li><a href="mtbipad.html">Ipad</a></li>
+                                                <li><a href="mtbsamsung.html">Samsung</a></li>
+                                               
+                                            </ul>
+                                        </li>
+                
+                                        <li>
+                                            <a href="#">TV</a>
+                                            <ul class="na">
+                                                <li><a href="tivisony.html">Sony</a></li>
+                                                <li><a href="tivilg.html">LG</a></li>
+                                                <li><a href="tivipana.html">Panasonic</a></li>
+                                                <li><a href="tivisamsung.html">Samsung</a></li>
+                                            </ul>
+                                        </li>
+                
+                                        <li><a href="dongho.html">Smart Watch</a></li>
+                
+                                        <li><a href="phukien.html">Phụ kiện</a></li>
+                                    </ul>
+                                </li>
+        
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <ul class="tren_phai">
+                        <li class="tren_phai_0"><a href="trangchu.html" class="tren_phai_1"><i class="fa fa-home"></i> Trang chủ</a></li>
+                        <li class="tren_phai_0"><a href="giohang.html" class="tren_phai_1"><i class="fa fa-shopping-basket"></i> Giỏ hàng</a></li>
+                        <li class="nav-item active tren_phai_0">
+                            <a class="nav-link tren_phai_1" href="#" data-toggle="modal" data-target="#modalLoginForm">
+                                <i class="fa fa-user"></i>Tài khoản</a>
+                        </li>
+                        
+                        <li class="tren_phai_0"><a href="hotro.html" class="tren_phai_1"><i class="fa fa-phone"></i> Hỗ trợ</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="modal fade" id="modalLoginForm">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Đăng nhập tài khoản</h4>
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="input_box">
+                                <input type="text" placeholder="Tên đăng nhập" required>
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                            </div>
+                            <br>
+                            <div class="input_box">
+                                <input type="password" placeholder="Mật khẩu" required>
+                                <div class="icon"><i class="fa fa-lock"></i></div>
+                            </div>
+                        </div>
+                        
+                        <div class="modal-footer justify-content-center chinh">
+                            <div class="chinh1"><a ><u>Quên mật khẩu</u></a></div>
+                            <button class="chinh2 btn btn-default " >Đăng nhập</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+            <nav class="header_duoi">
+                <ul class="danhsach">
+                    <li class="tren_duoi_0 gachxuong "><a href="#" class="tren_duoi_1"><i class="fa fa-mobile" ></i> Điện thoại</a>
+                        <ul class="sub-menu">
+                            <li><a href="iphone.html" class="wqe">IPHONE</a></li>
+                            <li><a href="samsung.html" class="wqe">SAMSUNG</a></li>
+                            <li><a href="oppo.html" class="wqe">OPPO</a></li>
+                            <li><a href="xiaomi.html" class="wqe">XIAOMI</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="tren_duoi_0 gachxuong1"><a href="#" class="tren_duoi_1"><i class="fa fa-laptop"></i> Laptop</a>
+                        <ul class="sub-menu">
+                            <li><a href="dell.html">DELL</a></li>
+                            <li><a href="hp.html">HP</a></li>
+                            <li><a href="asus.html">ASUS</a></li>
+                           
+                        </ul>
+                    </li>
+
+                    <li class="tren_duoi_0 gachxuong1"><a href="pc.html" class="tren_duoi_1"><i class="fa fa-desktop"></i> PC</a></li>
+
+                    <li class="tren_duoi_0 gachxuong1"><a href="#" class="tren_duoi_1"><i class="fa fa-tablet"></i> Máy tính bảng</a>
+                        <ul class="sub-menu">
+                            <li><a href="mtbipad.html">IPAD</a></li>
+                            <li><a href="mtbsamsung.html">SAMSUNG</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="tren_duoi_0 gachxuong1"><a href="#" class="tren_duoi_1"><i class="fa fa-tv"></i> TV</a>
+                        <ul class="sub-menu">
+                            <li><a href="tivisony.html">SONY</a></li>
+                            <li><a href="tivilg.html">LG</a></li>
+                            <li><a href="tivipana.html">PANASONIC</a></li>
+                            <li><a href="tivisamsung.html">SAMSUNG</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="tren_duoi_0 gachxuong1"><a href="dongho.html" class="tren_duoi_1"><i class="fa fa-clock"></i> Smart Watch</a></li>
+                    <li class="tren_duoi_0 gachxuong2"><a href="phukien.html" class="tren_duoi_1"><i class="fa fa-puzzle-piece"></i> Phụ kiện</a></li>
+                </ul>
+            </nav>
+
+            
+
+            <div class="menudt">
+               
+                <div id="toggle">
+                    <img src="logo/1.jpg" style="width: 48px; height: 48px;">
+                    <i class="menu fa-solid fa-bars"></i>
+                    
+                </div>
+
+                <nav class="dt">
+                    <ul id="main-menu">
+                        <li><a href="trangchu.html">Trang chủ</a></li>
+
+                        <li><a href="giohang.html">Giỏ hàng</a></li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLoginForm">
+                                Tài khoản</a>
+                        </li>
+                        
+
+                        <li><a href="hotro.html">Hỗ trợ</a></li>
+
+                        <li>
+                            <a href="#">Sản phẩm</a>
+                            <ul class="gianhang">
+                                <li>
+                                    <a href="#">Điện thoại</a>
+                                    <ul class="na">
+                                        <li><a href="iphone.html">Iphone</a></li>
+                                        <li><a href="samsung.html">Samsung</a></li>
+                                        <li><a href="oppo.html">Oppo</a></li>
+                                        <li><a href="xiaomi.html">Xiaomi</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="#">Laptop</a>
+                                    <ul class="na">
+                                        <li><a href="dell.html">Dell</a></li>
+                                        <li><a href="hp.html">HP</a></li>
+                                        <li><a href="asus.html">Asus</a></li>
+                                        
+                                    </ul>
+                                </li>
+        
+                                <li> <a href="pc.html">PC</a></li>
+        
+                                <li>
+                                    <a href="#">Máy tính bảng</a>
+                                    <ul class="na">
+                                        <li><a href="mtbipad.html">Ipad</a></li>
+                                        <li><a href="mtbsamsung.html">Samsung</a></li>
+                                       
+                                    </ul>
+                                </li>
+        
+                                <li>
+                                    <a href="#">TV</a>
+                                    <ul class="na">
+                                        <li><a href="tivisony.html">Sony</a></li>
+                                        <li><a href="tivilg.html">LG</a></li>
+                                        <li><a href="tivipana.html">Panasonic</a></li>
+                                        <li><a href="tivisamsung.html">Samsung</a></li>
+                                    </ul>
+                                </li>
+        
+                                <li><a href="dongho.html">Smart Watch</a></li>
+        
+                                <li><a href="phukien.html">Phụ kiện</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+
+               
+            </div> 
+
+        </header>
+        
+        <div >
+            <img src="images_doan/trangchu.jpg" class="banner" alt=""> 
+        </div>
+
+        <div class="container-fluid text-center bgbanner">
+            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                <!--Indicators-->
+                <ol class="carousel-indicators" >
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+    
+                <!--Wrapper for slides-->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="images/anh1.jpg" class="slidebanner"  alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/anh5.jpg" class="slidebanner"  alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/anh3.jpg" class="slidebanner"  alt="">
+                    </div>
+                </div>
+                <!--Left and right controls-->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!--End Carousel-->
+        <!-- -------------------------------ĐIỆN THOẠI-------------------------------------------------- -->
+        <div class="group">
+            <div class="duongphancach">
+            </div>
+            <div class="khung">
+             <img src="images_doan/1.jpg" class="banner2" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/ip1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Iphone 14 pro max-1T/128GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>49.000.000 vnđ</strong></p>
+                                    <h4><strong><del>49.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/ip2.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Iphone 14 Plus-128GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>26.400.000 vnđ</strong></p>
+                                    <h4><strong><del>26.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/ip3.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Iphone 14-128GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>23.400.000 vnđ</strong></p>
+                                    <h4><strong><del>23.900.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/ip4.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Iphone 13 Pro - 128GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>25.400.000 vnđ</strong></p>
+                                    <h4><strong><del>26.000.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------------------KẾT THÚC ĐIỆN THOẠI------------------------------------------------------- -->
+
+        <!-- ------------------------------------------LAPTOP---------------------------------------------------------------- -->
+        <div class="group">
+            <div class="duongphancach">
+            </div>
+            <div class="khung">
+            <img src="images_doan/Laptop.jpg" class="banner2" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/dell1.jpeg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>DELL XPS 15 9520 (2022) </strong></p>
+                                </div>
+                                <div class="chuthich">
+                                    <p style="margin-bottom: 0px;"><strong>Core i7 12700H / 16GB / 512GB SSD / RTX 3050 4GB / FHD+</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>41.000.000 vnđ</strong></p>
+                                    <h4><strong><del>41.700.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/dell2.jpeg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>DELL XPS 17 9720 (2022)</strong></p>
+                                </div>
+                                <div class="chuthich">
+                                    <p style="margin-bottom: 0px;"><strong>Core i9 12900HK / 16GB / 1TB SSD / RTX 3060 6GB / UHD+ TOUCH</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>68.000.000 vnđ</strong></p>
+                                    <h4><strong><del>69.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/dell3.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Laptop Dell XPS 9320 5CG56 (Bản i7-1260P)</strong></p>
+                                </div>
+                                <div class="chuthich">
+                                    <p style="margin-bottom: 0px;"><strong></strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>56.000.000 vnđ</strong></p>
+                                    <h4><strong><del>57.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/hp1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>HP ZBook Firefly 14 G8 </strong></p>
+                                </div>
+                                <div class="chuthich">
+                                    <p style="margin-bottom: 0px;"><strong>Intel Core i7-1165G7 4-core / 16GB / 512GB / NVIDIA T500 4GB / 14" FHD</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>37.500.000 vnđ</strong></p>
+                                    <h4><strong><del>38.000.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------------------------------KẾT THÚC LAPTOP------------------------------------------- -->
+
+        <!-- -------------------------------------------------- MÁY TÍNH BẢNG------------------------------------------------ -->
+        <div class="group">
+            <div class="duongphancach">
+            </div>
+            <div class="khung">
+             <!--Pricing-->
+             <img src="images_doan/mtb.jpg" class="banner2" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/mtbss1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Máy tính bảng Samsung Galaxy Tab S7</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>18.000.000 vnđ</strong></p>
+                                    <h4><strong><del>19.700.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/mtbss2.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Samsung Galaxy Book Pro 13 x360 AMOLED</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>20.000.000 vnđ</strong></p>
+                                    <h4><strong><del>20.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/ip1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>iPad Air 10.9 2020-4G-256GB </strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>18.590.000 vnđ</strong></p>
+                                    <h4><strong><del>19.700.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div> 
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/mtbap1.png" style="width: 200px; height: 260px">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Apple iPad Pro M1 12.9" - 256GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>25.500.000 vnđ</strong></p>
+                                    <h4><strong><del>26.000.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------------------------------KẾT THÚC MÁY TÍNH BẢNG-------------------------------------- -->
+
+        <!-- --------------------------------------------------TI VI------------------------------------------------------- -->
+        <div class="group">
+            <div class="duongphancach">
+            </div>
+            <div class="khung">
+             <!--Pricing-->
+             <img src="images_doan/TV.jpg" class="banner2" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagestv/sn1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Tivi Sony 4K 65 inch KD-65X85K</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>26.300.000 vnđ</strong></p>
+                                    <h4><strong><del>27.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagestv/p2.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Tivi Panasonic 4K 65 inch TH-65GX750V </strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>24.900.000 vnđ</strong></p>
+                                    <h4><strong><del>25.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagestv/ss3.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Tivi Samsung 4K 65 inch</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>17.300.000 vnđ</strong></p>
+                                    <h4><strong><del>18.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagestv/lg4.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Tivi LG 4K 75 inch</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>26.500.000 vnđ</strong></p>
+                                    <h4><strong><del>27.000.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------KẾT THÚC TI VI------------------------------------------------- -->
+
+        <!-- -------------------------------------------------ĐỒNG HỒ------------------------------------------------------ -->
+        <div class="group">
+            <div class="duongphancach">
+            </div>
+            <div class="khung">
+             <!--Pricing-->
+             <img src="images_doan/DongHo.jpg" class="banner2" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdh/ap1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Apple Watch S8 GPS 41mm</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>11.900.000 vnđ</strong></p>
+                                    <h4><strong><del>12.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdh/ss1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>SAMSUNG Galaxy Watch 5 40mm LTE Smartwatch</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>10.000.000 vnđ</strong></p>
+                                    <h4><strong><del>15.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div> 
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdh/xm1.png" class="anh" style="width: 120px; height:200px;">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi M4</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>19.300.000 vnđ</strong></p>
+                                    <h4><strong><del>20.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdh/he1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>HUAWEI Watch 3 Smart Watch 46MM, 1.43-inch</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>9.100.000 vnđ</strong></p>
+                                    <h4><strong><del>9.700.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 20px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 20px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------------------------------KẾT THÚC ĐỒNG HỒ-------------------------------------------------- -->
+
+
+        <!-- ----------------------------GIAO DIEN IPAD -->
+       
+        <div class="duongphancach1">
+        </div>
+        <div class="group_ipad">
+            <img src="images/dtipad.jpg" class="banner2" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/ip1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Iphone 14 pro max-1T/128GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>49.000.000 vnđ</strong></p>
+                                    <h4><strong><del>49.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/ip2.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Iphone 14 Plus-128GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>26.400.000 vnđ</strong></p>
+                                    <h4><strong><del>26.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/ip3.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Iphone 14-128GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>23.400.000 vnđ</strong></p>
+                                    <h4><strong><del>23.900.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+
+        <div class="duongphancach1">
+        </div>
+        <div class="group_ipad">
+            <img src="images/laptopipad.jpg" class="banner2" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/dell1.jpeg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>DELL XPS 15 9520 (2022) </strong></p>
+                                </div>
+                                <div class="chuthich">
+                                    <p style="margin-bottom: 0px;"><strong>Core i7 12700H / 16GB / 512GB SSD / RTX 3050 4GB / FHD+</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>41.000.000 vnđ</strong></p>
+                                    <h4><strong><del>41.700.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/dell2.jpeg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>DELL XPS 17 9720 (2022)</strong></p>
+                                </div>
+                                <div class="chuthich">
+                                    <p style="margin-bottom: 0px;"><strong>Core i9 12900HK / 16GB / 1TB SSD / RTX 3060 6GB / UHD+ TOUCH</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>68.000.000 vnđ</strong></p>
+                                    <h4><strong><del>69.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/dell3.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Laptop Dell XPS 9320 5CG56 (Bản i7-1260P)</strong></p>
+                                </div>
+                                <div class="chuthich">
+                                    <p style="margin-bottom: 0px;"><strong></strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>56.000.000 vnđ</strong></p>
+                                    <h4><strong><del>57.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+
+        
+        <div class="duongphancach1">
+        </div>
+        <div class="group_ipad">
+            <img src="images/mtbipad.jpg" class="banner2" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/mtbss1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Máy tính bảng Samsung Galaxy Tab S7</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>18.000.000 vnđ</strong></p>
+                                    <h4><strong><del>19.700.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/mtbss2.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Samsung Galaxy Book Pro 13 x360 AMOLED</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>20.000.000 vnđ</strong></p>
+                                    <h4><strong><del>20.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/ip1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>iPad Air 10.9 2020-4G-256GB </strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>18.590.000 vnđ</strong></p>
+                                    <h4><strong><del>19.700.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div> 
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+        </div>
+
+        
+        <div class="duongphancach1">
+        </div>
+        <div class="group_ipad">
+            <img src="images/tvipad.jpg" class="banner2" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagestv/sn1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Tivi Sony 4K 65 inch KD-65X85K</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>26.300.000 vnđ</strong></p>
+                                    <h4><strong><del>27.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagestv/p2.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Tivi Panasonic 4K 65 inch TH-65GX750V </strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>24.900.000 vnđ</strong></p>
+                                    <h4><strong><del>25.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagestv/ss3.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Tivi Samsung 4K 65 inch</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>17.300.000 vnđ</strong></p>
+                                    <h4><strong><del>18.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+
+        <div class="duongphancach1">
+        </div>
+        <div class="group_ipad">
+        <!--Pricing-->
+            <img src="images/donghoipad.jpg" class="banner2" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdh/ap1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Apple Watch S8 GPS 41mm</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>11.900.000 vnđ</strong></p>
+                                    <h4><strong><del>12.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdh/ss1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>SAMSUNG Galaxy Watch 5 40mm LTE Smartwatch</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>10.000.000 vnđ</strong></p>
+                                    <h4><strong><del>15.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div> 
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdh/xm1.png" class="anh" style="width: 120px; height:200px;">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Xiaomi M4</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>19.300.000 vnđ</strong></p>
+                                    <h4><strong><del>20.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 16px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 16px;padding-top: 5px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+
+        <!-- --------------------------GIAO DIEN DIENTHOAI -->
+        <div class="duongphancach2">
+        </div>
+        <div class="group_dt">
+            <img src="images/dtdt.jpg" class="bannerdt" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+        
+                        <div class="col-xs-6">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/ip1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Iphone 14 pro max-1T/128GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>49.000.000 vnđ</strong></p>
+                                    <h4><strong><del>49.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 13px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 13px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-xs-6">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdt/ip2.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Iphone 14 Plus-128GB</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>26.400.000 vnđ</strong></p>
+                                    <h4><strong><del>26.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 13px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 13px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+        </div>
+        
+        <div class="duongphancach2">
+        </div>
+        <div class="group_dt">
+            <img src="images/laptopdt.jpg" class="bannerdt" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+        
+                        <div class="col-xs-6">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/dell1.jpeg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>DELL XPS 15 9520 (2022) </strong></p>
+                                </div>
+                                <div class="chuthich">
+                                    <p style="margin-bottom: 0px;"><strong>Core i7 12700H / 16GB / 512GB SSD / RTX 3050 4GB / FHD+</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>41.000.000 vnđ</strong></p>
+                                    <h4><strong><del>41.700.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 13px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 13px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-xs-6">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/dell2.jpeg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>DELL XPS 17 9720 (2022)</strong></p>
+                                </div>
+                                <div class="chuthich">
+                                    <p style="margin-bottom: 0px;"><strong>Core i9 12900HK / 16GB / 1TB SSD / RTX 3060 6GB / UHD+ TOUCH</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>68.000.000 vnđ</strong></p>
+                                    <h4><strong><del>69.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 13px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 13px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+        </div>
+        
+        
+        <div class="duongphancach2">
+        </div>
+        <div class="group_dt">
+            <img src="images/mtbdt.jpg" class="bannerdt" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+        
+                        <div class="col-xs-6">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/mtbss1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Máy tính bảng Samsung Galaxy Tab S7</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>18.000.000 vnđ</strong></p>
+                                    <h4><strong><del>19.700.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 13px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 13px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-xs-6">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="images/mtbss2.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Samsung Galaxy Book Pro 13 x360 AMOLED</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>20.000.000 vnđ</strong></p>
+                                    <h4><strong><del>20.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 13px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 13px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+        </div>
+        
+        
+        <div class="duongphancach2">
+        </div>
+        <div class="group_dt">
+            <img src="images/tvdt.jpg" class="bannerdt" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+        
+                        <div class="col-xs-6">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagestv/sn1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Tivi Sony 4K 65 inch KD-65X85K</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>26.300.000 vnđ</strong></p>
+                                    <h4><strong><del>27.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 13px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 13px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-xs-6">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagestv/p2.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Tivi Panasonic 4K 65 inch TH-65GX750V </strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>24.900.000 vnđ</strong></p>
+                                    <h4><strong><del>25.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 13px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 13px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+        </div>
+        
+        <div class="duongphancach2">
+        </div>
+        <div class="group_dt">
+            <img src="images/donghodt.jpg" class="bannerdt" alt=""> 
+                <div id="pricing" class="container-fluid">
+                    <div class="row cantop">
+        
+                        <div class="col-xs-6">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdh/ap1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>Apple Watch S8 GPS 41mm</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>11.900.000 vnđ</strong></p>
+                                    <h4><strong><del>12.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 13px;"></i> Mua hàng</button>
+                                    <button class="gio"><i class="fa fa-cart-plus" style="color:black; font-size: 13px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-xs-6">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <img src="imagesdh/ss1.jpg" class="anh">
+                                </div>
+                                <div class="tensp">
+                                    <p style="margin-bottom: 0px;"><strong>SAMSUNG Galaxy Watch 5 40mm LTE Smartwatch</strong></p>
+                                </div>
+                                <div class="panel-gia">
+                                    <p><strong>10.000.000 vnđ</strong></p>
+                                    <h4><strong><del>15.500.000 vnđ</del></strong></h4>
+                                    <br>
+                                </div>
+                                <div class="muahang">
+                                    <button class="mua"><i class="fa fa-shopping-cart" style="color:black; font-size: 13px;"></i> Mua hàng</button>
+                                    <button class=" gio"><i class="fa fa-cart-plus" style="color:black; font-size: 13px;"></i> Thêm vào giỏ hàng</button>
+                                    <br>
+                                </div> 
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+        </div>
+
+
+        <!-- Phần cuối  -->
+            <div >
+                <div class="thongtin">
+                    <div class="thongtinpro">
+                        <h1 style="font-weight: bold;">Hỗ trợ:</h1>
+                        <li><a href="https://www.facebook.com/thanhchetm"><img src="images_doan/fb.jpg" class="logo1">https://www.facebook.com/thanhchetm</a></li>
+                        <li><a href="https://zalo.me/g/gbmvgb398"><img src="images_doan/zalo.jpg" class="logo1">https://zalo.me/g/gbmvgb398</a></li>
+                        <li><a href="Xyzthanhchien@gmail.com"><img src="images_doan/gmail.jpg" class="logo1">Xyzthanhchien@gmail.com</a></li>
+                    </div>
+                    <div class="vertical-line" ></div>
+                    <div class="thongtinpro">
+                        <h1 style="font-weight: bold;">Phương thức thanh toán:</h1>
+                        <div class="nganhang">
+                            <img src="images_doan/vnpay.png" style="width: 90px; height:30px; margin-right: 5px; border-radius:4px;" alt="">
+                            <img src="images_doan/MoMo_Logo.png" style="width: 30px; height:30px; margin-right: 5px; border-radius:4px;" alt="">
+                            <img src="images_doan/ZaloPay-logo.png" style="width: 30px; height:30px; margin-right: 5px; border-radius:4px;" alt="">
+                            <br>
+                            <img src="images_doan/agri.jpg" style="width: 40px; height:30px; border-radius:4px; margin-right: 5px; margin-top: 10px;" alt="">
+                            <img src="images_doan/logo-bidv-20220426071253.jpg" style="width: 40px; height:25px; border-radius:4px; margin-right: 5px; margin-top: 15px;" alt="">
+                            <img src="images_doan/logo-vietinbank-inkythuatso-10-13-22-06.jpg" style="width: 70px; height:30px; border-radius:4px; margin-right: 5px; margin-top: 10px;" alt="">
+                        </div>
+                        <div class="nganhang1">
+                            <img src="images_doan/vnpay.png" style="width: 60px; height:20px; margin-right: 0px; border-radius:4px;" alt="">
+                            <img src="images_doan/MoMo_Logo.png" style="width: 20px; height:20px; margin-right: 3px; border-radius:4px;" alt="">
+                            <img src="images_doan/ZaloPay-logo.png" style="width: 20px; height:20px; margin-right: 3px; border-radius:4px;" alt="">
+                            <br>
+                            <img src="images_doan/agri.jpg" style="width: 30px; height:20px; border-radius:4px; margin-right: 0px; margin-top: 10px;" alt="">
+                            <img src="images_doan/logo-bidv-20220426071253.jpg" style="width: 30px; height:15px; border-radius:4px; margin-right: 3px; margin-top: 15px;" alt="">
+                            <img src="images_doan/logo-vietinbank-inkythuatso-10-13-22-06.jpg" style="width: 40px; height:20px; border-radius:4px; margin-right: 3px; margin-top: 10px;" alt="">
+                        </div>
+                        <div class="nganhang2">
+                            <img src="images_doan/vnpay.png" style="width: 30px; height:10px; margin-right: 0px; border-radius:2px;" alt="">
+                            <img src="images_doan/MoMo_Logo.png" style="width: 10px; height:10px; margin-right: 1.5px; border-radius:2px;" alt="">
+                            <img src="images_doan/ZaloPay-logo.png" style="width: 10px; height:10px; margin-right: 1.5px; border-radius:2px;" alt="">
+                            <br>
+                            <img src="images_doan/agri.jpg" style="width: 15px; height:10px; border-radius:2px; margin-right: 0px; margin-top: 5px;" alt="">
+                            <img src="images_doan/logo-bidv-20220426071253.jpg" style="width: 15px; height:7.5px; border-radius:2px; margin-right: 1.5px; margin-top: 7.5px;" alt="">
+                            <img src="images_doan/logo-vietinbank-inkythuatso-10-13-22-06.jpg" style="width: 20px; height:10px; border-radius:2px; margin-right: 3px; margin-top: 5px;" alt="">
+                        </div>
+                    </div>
+                    <div class="vertical-line" ></div>
+                    <div class="thongtinpro">
+                        <h1 style="font-weight: bold;">Tổng đài hỗ trợ:</h1>
+                        <div class="dungchodt">
+                            <li ><i class="fa fa-phone"></i> 1800 3737</li>
+                        </div>
+                    </div>
+                    <div class="dungchodt2">
+                        <div class="vertical-line" ></div>
+                    </div>
+                    <div class="thongtinpro1">
+                        <h1 style="font-weight: bold;">Video giới thiệu <br> và quá trình làm <br> việc của nhóm</h1>
+                        <iframe class="videoyt"src="https://www.youtube.com/embed/rfjk2VraoHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <!-- https://www.youtube.com/embed/fLPS4sIpYh0 -->
+                </div>
+            </div>
+                
+                <div class="footer">&copy;
+                    <span class="yellowtext">Nhóm đồ án thiết kế web bán hàng điện tử do các thành viên nhóm gồm Lê Công Thành, Nguyễn Thị Lê Na, Hoàng Thị Quỳnh Trang thiết kế và xây dựng. Bắt đầu từ ngày 10/10/2022 
+                        tại trường Đại Học Vinh Số 182, đường Lê Duẩn, thành phố Vinh, tỉnh Nghệ An</span>
+                </div>
+            </div>
+        <!-- End phần cuối -->    
+        
+
+    </div>
+
+</body>
+</html>
