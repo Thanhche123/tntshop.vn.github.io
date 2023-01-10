@@ -1,1 +1,1 @@
-# tntshop.vn.github.io
+# tntshop.github.io
